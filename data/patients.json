@@ -1,8 +1,9 @@
 [
-  {
-    "id": 1,
-    "name": "Aasiya",
-    "age": 21,
-    "disease": "Fever"
-  }
-]
+    {
+        "id": 1,
+            "name": "Aasiya",
+                "age": 21,
+                    "disease": "Fever"
+                      }
+                      ]
+                    
