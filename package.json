@@ -1,0 +1,24 @@
+{
+  "name": "medicare-",
+  "version": "1.0.0",
+  "description": "Medicare- hospital management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natchitha712-maker/Medicare-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/natchitha712-maker/Medicare-/issues"
+  },
+  "homepage": "https://github.com/natchitha712-maker/Medicare-#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

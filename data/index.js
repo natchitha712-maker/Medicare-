@@ -1,14 +1,17 @@
 const express = require("express");
 const app = express();
+app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Medicare Hospital System is Online!");
+  res.send("Medicare Hospital Server Running ✅");
   });
 
+  const patients = require("./patients.json");
+
   app.get("/patients", (req, res) => {
-    res.json([{ id: 1, name: "Aasiya", disease: "Fever" }]);
+    res.json(patients);
     });
 
-    app.listen(3000, () => {
-      console.log("Server is running!");
-      });
+    const PORT = 3000;
+    app.listen(PORT, () => {
+      console.log(`Server running 
