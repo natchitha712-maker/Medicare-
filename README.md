@@ -1,5 +1,7 @@
 Student Management App
-A simple Student Management CRUD application built using Node.js and Express.js.
+A simple Student Management CRUD application built using 
+Node.js and
+ Express.js.
 This project allows users to create, read, update, and delete student records.
 
 🚀 Features
